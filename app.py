@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import requests
 import base64
+import os
 from PIL import Image
 
 os.environ["ENDPOINT_URL"] = st.secrets["ENDPOINT_URL"]
