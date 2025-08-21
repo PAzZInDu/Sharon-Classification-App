@@ -5,8 +5,8 @@ import base64
 import os
 from PIL import Image
 
-os.environ["ENDPOINT_URL"] = st.secrets["ENDPOINT_URL"]
-
+#os.environ["ENDPOINT_URL"] = st.secrets["ENDPOINT_URL"]
+ENDPOINT_URL = 'https://askai.aiclub.world/27a37a06-93bd-4ec5-a56c-963adc53c0e7'
 
 #####functions#########
 def get_prediction(image_data, url):
@@ -56,7 +56,7 @@ with tab1:
             #getting the predictions
             with image:
                 payload = base64.b64encode(image.read())
-                response = get_prediction(payload, ENDPOINT_URL=os.environ["ENDPOINT_URL"])
+                response = get_prediction(payload, ENDPOINT_URL)
                 st.success(f"Class Label: {response}")
 
 
@@ -71,7 +71,7 @@ with tab2:
         #getting the predictions
         with cam_image:
             payload = base64.b64encode(image.read())
-            response = get_prediction(payload, ENDPOINT_URL=os.environ["ENDPOINT_URL"])
+            response = get_prediction(payload, ENDPOINT_URL)
             
             #displaying the predicted label
             st.success("Your Condition is **{}**".format(label))
