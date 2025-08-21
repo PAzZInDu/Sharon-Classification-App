@@ -24,8 +24,8 @@ st.title("Cataract Image Predictior")
 
 #setting the main picture
 st.image(
-    "https://columbiaeyeclinic.com/wp-content/uploads/2019/11/tech-eye-4-scaled.jpg", 
-    caption = "Cataract Eyes")
+    "https://images5.alphacoders.com/136/1362021.jpeg", 
+    caption = "Butterfly Classification")
 
 #about the web app
 st.header("About the Web App")
