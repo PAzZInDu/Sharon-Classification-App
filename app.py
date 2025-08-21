@@ -20,7 +20,7 @@ def get_prediction(image_data, url):
 #Building the website
 
 #title of the web page
-st.title("Cataract Image Predictior")
+st.title("Butterfly Classifer")
 
 #setting the main picture
 st.image(
