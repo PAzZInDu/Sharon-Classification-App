@@ -5,7 +5,7 @@ import base64
 import os
 from PIL import Image
 
-#os.environ["ENDPOINT_URL"] = st.secrets["ENDPOINT_URL"]
+
 ENDPOINT_URL = 'https://askai.aiclub.world/27a37a06-93bd-4ec5-a56c-963adc53c0e7'
 
 #####functions#########
@@ -24,7 +24,7 @@ st.title("Butterfly Classifer")
 
 #setting the main picture
 st.image(
-    "https://images5.alphacoders.com/136/1362021.jpeg", 
+    "https://t4.ftcdn.net/jpg/10/09/58/79/360_F_1009587933_xfLSLUHWaMJDnhvB6rJFtYZosRs0ObNr.jpg", 
     caption = "Butterfly Classification")
 
 #about the web app
