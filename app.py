@@ -25,7 +25,7 @@ st.title("Butterfly Classifer")
 #setting the main picture
 st.image(
     "https://t4.ftcdn.net/jpg/10/09/58/79/360_F_1009587933_xfLSLUHWaMJDnhvB6rJFtYZosRs0ObNr.jpg", 
-    caption = "Butterfly Classification")
+    caption = "Butterfly")
 
 #about the web app
 st.header("About the Web App")
