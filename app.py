@@ -24,7 +24,7 @@ st.title("Butterfly Classifer")
 
 #setting the main picture
 st.image(
-    "https://t4.ftcdn.net/jpg/10/09/58/79/360_F_1009587933_xfLSLUHWaMJDnhvB6rJFtYZosRs0ObNr.jpg", 
+    "https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/396e9/MainBefore.jpg", 
     caption = "Butterfly")
 
 #about the web app
